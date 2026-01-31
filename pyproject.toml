@@ -1,0 +1,14 @@
+[project]
+name = "writepolicybench"
+version = "0.0.1"
+description = "Streaming benchmark harness scaffold."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Edgard El Cham", email = "Edgardelcham@gmail.com" }]
+dependencies = ["matplotlib>=3.8"]
+
+[project.scripts]
+writepolicybench = "writepolicybench.__main__:main"
+
+[tool.uv]
+package = true

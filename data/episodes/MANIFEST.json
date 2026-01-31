@@ -1,0 +1,17 @@
+{
+  "episodes": 10,
+  "files": {
+    "burst_drift": "data/episodes/episodes__schema=priority_v1__mode=burst_drift__seed=0__steps=200__n=10.jsonl",
+    "burst_redundancy": "data/episodes/episodes__schema=priority_v1__mode=burst_redundancy__seed=0__steps=200__n=10.jsonl",
+    "default": "data/episodes/episodes__schema=priority_v1__mode=default__seed=0__steps=200__n=10.jsonl",
+    "redundancy": "data/episodes/episodes__schema=priority_v1__mode=redundancy__seed=0__steps=200__n=10.jsonl"
+  },
+  "modes": [
+    "default",
+    "burst_drift",
+    "redundancy",
+    "burst_redundancy"
+  ],
+  "seed": 0,
+  "steps": 200
+}
